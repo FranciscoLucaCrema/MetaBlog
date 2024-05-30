@@ -1,0 +1,24 @@
+.containerIcon{
+  background-color: #E8E8EA;
+  border-radius: 100px;
+  width: 48px;
+  height: 28px;
+
+  display: flex;
+  align-items: center;
+
+  .icon{
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    width: 24px;
+    height: 24px;
+    padding: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    
+  }
+}
