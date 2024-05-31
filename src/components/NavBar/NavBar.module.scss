@@ -1,50 +1,47 @@
-.navContainer {
+@import "../../stylesheets/variables/font";
+
+.container {
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  padding: 32px 0;
 
-  .logo {
-    width: 158px;
-    height: 36px;
-  }
-
-  .searches {
+  .nav {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    gap: 21px;
+    justify-content: space-between;
 
-    .text {
-      font-size: 16px;
-      font-family: Work Sans;
-      line-height: 24px;
-
-      .link {
-        text-decoration: none;
-        color: #3b3c4a;
-      }
+    .logo {
+      width: 158px;
+      height: 36px;
     }
 
-    .containerInput {
-      position: relative;
+    .searches {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
 
-      .input {
-        width: 166px;
-        height: 36px;
-        padding: 8px 8px 8px 16px;
-        background-color: #f4f4f5;
-        border: none;
-        border-radius: 5px;
+      .text {
+        margin-right: 21px;
+        
+        .link {
+          font-family: $font-familyVariant;
+          font-size: 16px;
+          line-height: 24px;
+          text-decoration: none;
+          color: #3b3c4a;
+        }
       }
 
-      .svgSearch {
-        content: "";
-        position: absolute;
-        top: 10px;
-        left: 135px;
-        right: 0;
-        bottom: 0;
+      .containerInput {
+        position: relative;
+        width: 166px;
+
+        .svgSearch {
+          content: "";
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          bottom: 0;
+        }
       }
     }
   }
