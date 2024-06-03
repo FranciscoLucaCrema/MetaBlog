@@ -1,0 +1,28 @@
+@import "../../../stylesheets/variables/font";
+
+.title {
+  color: #181a2a;
+  font-size: 24px;
+  font-family: $font-familyVariant;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.containerCardList {
+  width: 100%;
+
+  .cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-bottom: 32px;
+  }
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
