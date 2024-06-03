@@ -1,0 +1,80 @@
+@import "../../../stylesheets/variables/font";
+
+.containerFrame {
+  background-color: #ffffff;
+  width: 598px;
+  height: 304px;
+  padding: 40px;
+  box-shadow: 2px 10px 10px -4px #e8e8ea;
+  border-radius: 12px;
+
+  position: absolute;
+  left: 60px;
+  bottom: 0;
+
+  .frameInfo {
+    width: 518px;
+    height: 164px;
+    margin-bottom: 24px;
+
+    .frameCategory {
+      background-color: #4b6bfb;
+      color: #ffffff;
+      width: 97px;
+      height: 28px;
+      margin-bottom: 16px;
+
+      font-family: $font-familyVariant;
+      font-size: 14px;
+      font-weight: 500;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 6px;
+    }
+
+    .frameTitle {
+      color: #181a2a;
+      font-family: $font-familyVariant;
+      font-weight: 600;
+      font-size: 36px;
+    }
+  }
+
+  .user {
+    width: 321px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .userInfo {
+      width: 175px;
+      margin-right: 20px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 12px;
+
+      .iconUser {
+        width: 36px;
+        height: 36px;
+        border-radius: 28px;
+      }
+
+      .userName {
+        color: #97989f;
+        font-size: 16px;
+        font-family: $font-familyVariant;
+        font-weight: 500;
+      }
+    }
+
+    .userPublication {
+      color: #97989f;
+      font-family: $font-familyVariant;
+      font-weight: 400;
+    }
+  }
+}
