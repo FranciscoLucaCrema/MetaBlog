@@ -1,0 +1,13 @@
+.containerHero {
+  width: 100%;
+  height: 664px;
+  position: relative;
+  margin-bottom: 80px;
+
+  .imgHero {
+    width: 100%;
+    height: 90%;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+}
