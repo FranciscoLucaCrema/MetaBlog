@@ -1,0 +1,71 @@
+@import "../../../stylesheets/variables/font";
+
+.containerForm {
+  background-color: #ffffff;
+  width: 392px;
+  height: 254px;
+  padding: 32px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .heading {
+    width: 289px;
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+
+    .title {
+      color: #181a2a;
+      width: 185px;
+      height: 24px;
+      margin-bottom: 8px;
+      font-size: 20px;
+      line-height: 24px;
+      font-family: $font-familyVariant;
+      font-weight: 600;
+    }
+
+    .text {
+      color: #696a75;
+      width: 289px;
+      height: 24px;
+      font-size: 16px;
+      line-height: 24px;
+      font-family: $font-familyVariant;
+      font-weight: 400;
+    }
+  }
+
+  .input {
+    position: relative;
+    margin-bottom: 8px;
+
+    .iconEmail {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      top: 15px;
+      right: 15px;
+    }
+  }
+
+  .inputSubmit {
+    width: 320px;
+
+    .send {
+      background-color: #4b6bfb;
+      color: #ffffff;
+      width: 100%;
+      height: 48px;
+      font-size: 16px;
+      font-family: $font-familyVariant;
+      font-weight: 500;
+      border: none;
+      border-radius: 6px;
+    }
+  }
+}
